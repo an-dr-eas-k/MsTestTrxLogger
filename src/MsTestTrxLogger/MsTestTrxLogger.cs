@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using Microsoft.VisualStudio.TestPlatform.ObjectModel;
@@ -41,7 +41,7 @@ namespace MsTestTrxLogger
 
             var testRunStarted = DateTime.Now;
             List<TestResult> testResults = new List<TestResult>();
-            
+
             events.TestResult += (sender, eventArgs) =>
             {
                 try

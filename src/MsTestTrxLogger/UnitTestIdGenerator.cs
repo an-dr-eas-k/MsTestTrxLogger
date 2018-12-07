@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -6,7 +6,7 @@ namespace MsTestTrxLogger
 {
     public static class UnitTestIdGenerator
     {
-        private static readonly HashAlgorithm provider  = new SHA1CryptoServiceProvider();
+        private static readonly HashAlgorithm provider = new SHA1CryptoServiceProvider();
 
         /// <summary>
         /// Calculates a hash of the string and copies the first 128 bits of the hash to a new Guid.
