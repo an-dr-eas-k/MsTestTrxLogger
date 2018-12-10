@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MsTestTrxLogger</RootNamespace>
-    <AssemblyName>MsTestTrxLogger</AssemblyName>
+    <AssemblyName>MsTestTrxLogger.testlogger</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
